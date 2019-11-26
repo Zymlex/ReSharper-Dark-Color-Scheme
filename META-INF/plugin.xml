@@ -1,0 +1,23 @@
+<idea-plugin>
+  <id>color.scheme.ReSharper Dark</id>
+  <name>ReSharper Dark Color Scheme</name>
+  <version>0.1</version>
+  <vendor email="" url="https://github.com/Zymlex">Zymlex</vendor>
+
+  <description><![CDATA[
+      Incomplete copy Raider ReSharper Dark theme.
+    ]]></description>
+
+  <change-notes><![CDATA[
+      
+    ]]>
+  </change-notes>
+
+  <idea-version since-build="142.0"/>
+
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledColorScheme path="/colors/ReSharper Dark"/>
+  </extensions>
+</idea-plugin>
